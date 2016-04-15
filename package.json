@@ -1,0 +1,28 @@
+{
+  "name": "angular-right-click",
+  "version": "0.1.0",
+  "description": "angular right click and context menu library. No external dependencies",
+  "main": "dist/ng-right-click-module.js",
+  "scripts": {
+    "test": "test/ng-right-click-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshanhyder/angular-right-click.git"
+  },
+  "keywords": [
+    "angular-right-click",
+    "angular-context-menu",
+    "menu",
+    "context-menu",
+    "right-click",
+    "right-click-menu",
+    "angular"
+  ],
+  "author": "Zeeshan Hyder <hyder.zeeshan@live.com> (https://github.com/zeeshanhyder)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeeshanhyder/angular-right-click/issues"
+  },
+  "homepage": "https://github.com/zeeshanhyder/angular-right-click#readme"
+}

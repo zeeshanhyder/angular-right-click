@@ -1,0 +1,35 @@
+.ng-right-click-mask{
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	position: fixed;
+	z-index: 9998;
+	cursor: default;
+}
+.ng-right-click-ul{	
+	position: absolute;
+	min-width: 150px;
+	box-shadow: 2px 2px 2px -2px #ddd;
+	background: #fff;
+	top: 80%;
+	z-index: 9999;
+	list-style: none;
+	padding: 0;
+	cursor: default;
+	border: solid thin #ddd;
+	border-radius: 2px;
+}
+.ng-right-click-ul li{
+	padding: 5px;
+	cursor: pointer;
+	margin: 5px 0;
+	font-size: 12px;
+}
+.ng-right-click-ul li:hover{
+	background: #f5f5f5;
+}
+.ng-right-click-ul li.disabled{
+	pointer-events:none;
+	color: rgba(0,0,0,0.3);
+}
