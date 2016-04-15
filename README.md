@@ -11,9 +11,19 @@ Angular right click and context menu library. No dependencies.
   
 ### bower
 
+In your project dir, type the following command:
 
-> **`Bower`** support is coming soon!
+```sh
+$ bower install angular-right-click
+```
+Then add a `<script>` in your project `html`:
 
+```javascript
+<script src='/bower_components/angular-right-click/src/ng-right-click.js'></script>
+```
+And finally in your Angular app, add the dependency as:
+
+`angular.module('yourApp',['ngRightClick',...]');`
 
 ### npm
 In your project dir, run the following command:

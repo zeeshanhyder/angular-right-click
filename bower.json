@@ -1,0 +1,33 @@
+{
+  "name": "angular-right-click",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zeeshanhyder/angular-right-click",
+  "authors": [
+    "Zeeshan <hyder.zeeshan@live.com>"
+  ],
+  "description": "angular right click and context menu library. No external dependencies",
+  "main": "src/ng-right-click.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "angular",
+    "right-click",
+    "angular-right-click",
+    "angular-context-menu",
+    "context-menu",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
