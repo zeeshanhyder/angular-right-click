@@ -71,14 +71,19 @@ ngRightClick.directive('ngRightClick', ["$compile","$parse","$timeout", function
           		var offsetX = event.screenX;
           		var offsetY = element[0].offsetHeight;
           		$timeout(function(){
-  	        		if(element[0].offsetWidth < (event.screenX + menuItemsUL[0].offsetWidth) )
-        				  offsetX = element[0].offsetWidth - (menuItemsUL[0].offsetWidth+20);
-        				menuItemsUL[0].style.left=offsetX+"px";
+  	        		//if(element[0].offsetWidth < (event.screenX + menuItemsUL[0].offsetWidth) )
+        				  //offsetX = element[0].offsetWidth - (menuItemsUL[0].offsetWidth+20);
+        				//menuItemsUL[0].style.left=offsetX+"px";
 
-        				if(document.body.scrollHeight < (event.screenY + menuItemsUL[0].offsetHeight) )
-        				  offsetY = -(menuItemsUL[0].offsetHeight+20);
-        				menuItemsUL[0].style.top=offsetY+"px";
-
+        				//if(document.body.scrollHeight < (event.screenY + menuItemsUL[0].offsetHeight) )
+        				  //offsetY = -(menuItemsUL[0].offsetHeight+20);
+        				//menuItemsUL[0].style.top=offsetY+"px";
+                
+        				//Fixed the Position of Context Menu
+        				menuItemsUL[0].style.left=event.clientX + 'px';
+        				menuItemsUL[0].style.top=event.clientY + 'px';
+        				menuItemsUL[0].style.position='fixed';
+        				menuItemsUL[0].style.display='block';
 
         				//show the element now that its width and height are properly calculated.
         				menuItemsUL[0].style.visibility="visible";
