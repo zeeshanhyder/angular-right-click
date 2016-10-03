@@ -80,10 +80,10 @@ ngRightClick.directive('ngRightClick', ["$compile","$parse","$timeout", function
         				//menuItemsUL[0].style.top=offsetY+"px";
                 
                         //Fixed the Position of Context Menu
-                        menuItemsUL[0].style.left=event.clientX + 'px';
-                        menuItemsUL[0].style.top=event.clientY + 'px';
-                        menuItemsUL[0].style.position='fixed';
-                        menuItemsUL[0].style.display='block';
+        				menuItemsUL[0].style.left=event.clientX + 'px';
+        				menuItemsUL[0].style.top=event.clientY + 'px';
+        				menuItemsUL[0].style.position='fixed';
+        				menuItemsUL[0].style.display='block';
 
         				//show the element now that its width and height are properly calculated.
         				menuItemsUL[0].style.visibility="visible";
