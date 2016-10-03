@@ -79,7 +79,7 @@ ngRightClick.directive('ngRightClick', ["$compile","$parse","$timeout", function
         				  //offsetY = -(menuItemsUL[0].offsetHeight+20);
         				//menuItemsUL[0].style.top=offsetY+"px";
                 
-                        //Fixed the Position of Context Menu
+        				//Fixed the Position of Context Menu
         				menuItemsUL[0].style.left=event.clientX + 'px';
         				menuItemsUL[0].style.top=event.clientY + 'px';
         				menuItemsUL[0].style.position='fixed';
