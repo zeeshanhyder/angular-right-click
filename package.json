@@ -1,6 +1,6 @@
 {
   "name": "angular-right-click",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "angular right click and context menu library. No external dependencies",
   "main": "dist/ng-right-click-module.js",
   "scripts": {
